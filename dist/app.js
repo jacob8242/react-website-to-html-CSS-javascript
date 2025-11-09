@@ -595,7 +595,12 @@ function renderAboutPage() {
                 </p>
                 
                 <h2 class="font-bebas" style="font-size: 2rem; color: #1f2937; margin-top: 2rem; margin-bottom: 1rem;">About the Founder</h2>
-                <div style="background-color: #f9fafb; padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem;">
+                <div style="background-color: #f9fafb; padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1.5rem;">
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+                        <img src="https://picsum.photos/seed/founder-marcus-chen/300/300" alt="Marcus Chen - Founder" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h3 class="font-bebas" style="font-size: 1.75rem; color: #1f2937; margin: 0; text-align: center;">Marcus Chen</h3>
+                        <p style="color: #6b7280; font-style: italic; margin: 0; text-align: center;">Founder & Master Roaster</p>
+                    </div>
                     <p class="about-text">
                         Black Belt Brews was founded by Marcus Chen, a third-degree black belt in Taekwondo and lifelong coffee enthusiast. 
                         Marcus's journey began in a small coffee shop near his dojo, where he discovered that the same principles that guided 
