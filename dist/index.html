@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Belt Brews</title>
+    <!-- Fonts: DM Sans and Bebas Neue -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <div class="banner-spacer"></div>
+        <div class="banner-center">Free shipping on orders over $50</div>
+        <div class="banner-social">
+            <a href="#" aria-label="Facebook" class="social-link"><i class="ri-facebook-fill"></i></a>
+            <a href="#" aria-label="Instagram" class="social-link"><i class="ri-instagram-fill"></i></a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-grid">
+            <div class="header-logo">
+                <a href="#/" class="logo-link">
+                    <img src="https://picsum.photos/seed/logo/100/100" alt="Black Belt Brews Logo" class="logo-img">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="#/" class="nav-link">Home</a>
+                <a href="#/shop" class="nav-link">Shop</a>
+                <a href="#/merch" class="nav-link">Merch</a>
+                <a href="#/subscriptions" class="nav-link">Subscriptions</a>
+                <a href="#/about" class="nav-link"><span class="nav-link-nowrap">Our Story</span></a>
+                <a href="#/contact" class="nav-link">Connect</a>
+            </nav>
+            <div class="header-icons">
+                <button aria-label="Menu" class="icon-btn mobile-menu-btn" onclick="toggleMobileMenu()"><i class="ri-menu-line"></i></button>
+                <button aria-label="Search" class="icon-btn"><i class="ri-search-line"></i></button>
+                <button aria-label="User Account" class="icon-btn"><i class="ri-user-line"></i></button>
+                <a href="#/cart" aria-label="Shopping Bag" class="icon-btn cart-link">
+                    <i class="ri-shopping-bag-line"></i>
+                    <span class="cart-badge">0</span>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobile-nav">
+            <button aria-label="Close Menu" class="mobile-nav-close" onclick="toggleMobileMenu()">
+                <i class="ri-close-line"></i>
+            </button>
+            <a href="#/" class="mobile-nav-link" onclick="toggleMobileMenu()">Home</a>
+            <a href="#/shop" class="mobile-nav-link" onclick="toggleMobileMenu()">Shop</a>
+            <a href="#/merch" class="mobile-nav-link" onclick="toggleMobileMenu()">Merch</a>
+            <a href="#/subscriptions" class="mobile-nav-link" onclick="toggleMobileMenu()">Subscriptions</a>
+            <a href="#/about" class="mobile-nav-link" onclick="toggleMobileMenu()">Our Story</a>
+            <a href="#/contact" class="mobile-nav-link" onclick="toggleMobileMenu()">Connect</a>
+        </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="app" class="main-content"></main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2 class="footer-brand-name">Black Belt Brews</h2>
+                    <p class="footer-tagline">Brew like a master. Focus like a fighter.</p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="footer-social-link"><i class="ri-instagram-fill"></i></a>
+                        <a href="#" class="footer-social-link"><i class="ri-twitter-x-fill"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">SHOP</h3>
+                    <ul class="footer-list">
+                        <li><a href="#/shop" class="footer-link">Ground Coffee</a></li>
+                        <li><a href="#/shop" class="footer-link">K-Cups</a></li>
+                        <li><a href="#/shop" class="footer-link">Tea</a></li>
+                        <li><a href="#/merch" class="footer-link">Merch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">LINKS</h3>
+                    <ul class="footer-list">
+                        <li><a href="#/about" class="footer-link">Our Story</a></li>
+                        <li><a href="#/contact" class="footer-link">Connect</a></li>
+                        <li><a href="#/about" class="footer-link">Our Mission</a></li>
+                        <li><a href="#/subscriptions" class="footer-link">Subscriptions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">CONTACT</h3>
+                    <address class="footer-address">
+                        <p>13791 Oneida Dr, Delray Beach, FL 33410</p>
+                        <p><a href="mailto:blackbeltbrews12@gmail.com" class="footer-link">blackbeltbrews12@gmail.com</a></p>
+                        <p><a href="tel:+15619452520" class="footer-link">(561) 945-2520</a></p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Black Belt Brews Co. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
