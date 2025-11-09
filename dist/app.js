@@ -584,20 +584,27 @@ function renderAboutPage() {
             
             <!-- Founder Section -->
             <div style="background-color: #f9fafb; padding: 2.5rem 2rem; border-radius: 0.5rem; margin-bottom: 3rem;">
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem; max-width: 600px; margin: 0 auto;">
-                    <img src="https://picsum.photos/seed/founder-patrick-lewis/200/200" alt="Patrick Lewis - Founder" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-                    <div style="text-align: center;">
-                        <h2 class="font-bebas" style="font-size: 2rem; color: #1f2937; margin: 0 0 0.25rem 0;">Patrick Lewis</h2>
-                        <p style="color: #6b7280; font-style: italic; margin: 0 0 1rem 0; font-size: 1.1rem;">Founder</p>
-                        <div style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 1.5rem;">
-                            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" style="color: #1f2937; font-size: 1.5rem; transition: color 0.3s;" aria-label="LinkedIn">
-                                <i class="ri-linkedin-fill"></i>
-                            </a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style="color: #1f2937; font-size: 1.5rem; transition: color 0.3s;" aria-label="Twitter">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
+                <div style="display: flex; gap: 2rem; align-items: center; max-width: 900px; margin: 0 auto; flex-wrap: wrap;">
+                    <!-- Left Side: Photo, Name, Title, Social Links -->
+                    <div style="flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 1rem; min-width: 200px;">
+                        <img src="https://picsum.photos/seed/founder-patrick-lewis/200/200" alt="Patrick Lewis - Founder" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <div style="text-align: center;">
+                            <h2 class="font-bebas" style="font-size: 2rem; color: #1f2937; margin: 0 0 0.25rem 0;">Patrick Lewis</h2>
+                            <p style="color: #6b7280; font-style: italic; margin: 0 0 1rem 0; font-size: 1.1rem;">Founder</p>
+                            <div style="display: flex; gap: 1rem; justify-content: center;">
+                                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" style="color: #1f2937; font-size: 1.5rem; transition: color 0.3s;" aria-label="LinkedIn">
+                                    <i class="ri-linkedin-fill"></i>
+                                </a>
+                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style="color: #1f2937; font-size: 1.5rem; transition: color 0.3s;" aria-label="Twitter">
+                                    <i class="ri-twitter-fill"></i>
+                                </a>
+                            </div>
                         </div>
-                        <p style="color: #4b5563; line-height: 1.6; text-align: center;">
+                    </div>
+                    
+                    <!-- Right Side: Paragraph -->
+                    <div style="flex: 1; min-width: 300px;">
+                        <p style="color: #4b5563; line-height: 1.6; margin: 0;">
                             Patrick Lewis founded Black Belt Brews with a vision to combine the discipline of martial arts with the art of coffee roasting. 
                             With over 15 years of experience in the coffee industry and a black belt in Karate, Patrick brings a unique perspective to 
                             every blend, ensuring that each cup delivers both exceptional quality and the focus needed to master your day.
