@@ -581,6 +581,31 @@ function renderAboutPage() {
     app.innerHTML = `
         <div class="about-section container">
             <h1 class="page-title text-center">Our Story</h1>
+            
+            <!-- Founder Section -->
+            <div style="background-color: #f9fafb; padding: 2.5rem 2rem; border-radius: 0.5rem; margin-bottom: 3rem;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem; max-width: 600px; margin: 0 auto;">
+                    <img src="https://picsum.photos/seed/founder-patrick-lewis/200/200" alt="Patrick Lewis - Founder" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                    <div style="text-align: center;">
+                        <h2 class="font-bebas" style="font-size: 2rem; color: #1f2937; margin: 0 0 0.25rem 0;">Patrick Lewis</h2>
+                        <p style="color: #6b7280; font-style: italic; margin: 0 0 1rem 0; font-size: 1.1rem;">Founder</p>
+                        <div style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 1.5rem;">
+                            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" style="color: #1f2937; font-size: 1.5rem; transition: color 0.3s;" aria-label="LinkedIn">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style="color: #1f2937; font-size: 1.5rem; transition: color 0.3s;" aria-label="Twitter">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                        <p style="color: #4b5563; line-height: 1.6; text-align: center;">
+                            Patrick Lewis founded Black Belt Brews with a vision to combine the discipline of martial arts with the art of coffee roasting. 
+                            With over 15 years of experience in the coffee industry and a black belt in Karate, Patrick brings a unique perspective to 
+                            every blend, ensuring that each cup delivers both exceptional quality and the focus needed to master your day.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
             <div class="about-content">
                 <p class="about-text">
                     Welcome to Black Belt Brews, where every cup is a testament to dedication, precision, and passion. 
@@ -593,32 +618,6 @@ function renderAboutPage() {
                     applied to the art of coffee roasting. We source only the finest beans from sustainable farms around the 
                     world, treating each batch with the respect it deserves.
                 </p>
-                
-                <h2 class="font-bebas" style="font-size: 2rem; color: #1f2937; margin-top: 2rem; margin-bottom: 1rem;">About the Founder</h2>
-                <div style="background-color: #f9fafb; padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1.5rem;">
-                    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
-                        <img src="https://picsum.photos/seed/founder-marcus-chen/300/300" alt="Marcus Chen - Founder" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-                        <h3 class="font-bebas" style="font-size: 1.75rem; color: #1f2937; margin: 0; text-align: center;">Marcus Chen</h3>
-                        <p style="color: #6b7280; font-style: italic; margin: 0; text-align: center;">Founder & Master Roaster</p>
-                    </div>
-                    <p class="about-text">
-                        Black Belt Brews was founded by Marcus Chen, a third-degree black belt in Taekwondo and lifelong coffee enthusiast. 
-                        Marcus's journey began in a small coffee shop near his dojo, where he discovered that the same principles that guided 
-                        his martial arts training—patience, precision, and respect for the craft—could be applied to coffee roasting.
-                    </p>
-                    <p class="about-text">
-                        After years of training under master roasters and traveling to coffee-growing regions across Central and South America, 
-                        Africa, and Asia, Marcus combined his two passions to create Black Belt Brews. His philosophy is simple: just as every 
-                        martial arts technique requires countless hours of practice and refinement, every coffee bean deserves the same level of 
-                        attention and care to unlock its full potential.
-                    </p>
-                    <p class="about-text">
-                        Today, Marcus leads a team of dedicated coffee professionals who share his vision of bringing mindful, high-quality 
-                        coffee to people who appreciate the finer details in life. When he's not roasting coffee or perfecting new blends, 
-                        you can find him at the dojo, teaching the next generation of martial artists that dedication and discipline apply to 
-                        everything we do—including brewing the perfect cup of coffee.
-                    </p>
-                </div>
                 
                 <h2 class="font-bebas" style="font-size: 2rem; color: #1f2937; margin-top: 2rem; margin-bottom: 1rem;">Our Mission</h2>
                 <p class="about-text">
