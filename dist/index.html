@@ -35,10 +35,11 @@
                 <a href="#/shop" class="nav-link">Shop</a>
                 <a href="#/merch" class="nav-link">Merch</a>
                 <a href="#/subscriptions" class="nav-link">Subscriptions</a>
-                <a href="#/about" class="nav-link">Our Story</a>
+                <a href="#/about" class="nav-link"><span class="nav-link-nowrap">Our Story</span></a>
                 <a href="#/contact" class="nav-link">Connect</a>
             </nav>
             <div class="header-icons">
+                <button aria-label="Menu" class="icon-btn mobile-menu-btn" onclick="toggleMobileMenu()"><i class="ri-menu-line"></i></button>
                 <button aria-label="Search" class="icon-btn"><i class="ri-search-line"></i></button>
                 <button aria-label="User Account" class="icon-btn"><i class="ri-user-line"></i></button>
                 <a href="#/cart" aria-label="Shopping Bag" class="icon-btn cart-link">
@@ -46,6 +47,20 @@
                     <span class="cart-badge">0</span>
                 </a>
             </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobile-nav">
+            <button aria-label="Close Menu" class="mobile-nav-close" onclick="toggleMobileMenu()">
+                <i class="ri-close-line"></i>
+            </button>
+            <a href="#/" class="mobile-nav-link" onclick="toggleMobileMenu()">Home</a>
+            <a href="#/shop" class="mobile-nav-link" onclick="toggleMobileMenu()">Shop</a>
+            <a href="#/merch" class="mobile-nav-link" onclick="toggleMobileMenu()">Merch</a>
+            <a href="#/subscriptions" class="mobile-nav-link" onclick="toggleMobileMenu()">Subscriptions</a>
+            <a href="#/about" class="mobile-nav-link" onclick="toggleMobileMenu()">Our Story</a>
+            <a href="#/contact" class="mobile-nav-link" onclick="toggleMobileMenu()">Connect</a>
+        </div>
         </div>
     </header>
 

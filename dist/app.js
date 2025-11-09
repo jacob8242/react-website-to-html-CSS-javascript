@@ -593,6 +593,28 @@ function renderAboutPage() {
                     applied to the art of coffee roasting. We source only the finest beans from sustainable farms around the 
                     world, treating each batch with the respect it deserves.
                 </p>
+                
+                <h2 class="font-bebas" style="font-size: 2rem; color: #1f2937; margin-top: 2rem; margin-bottom: 1rem;">About the Founder</h2>
+                <div style="background-color: #f9fafb; padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem;">
+                    <p class="about-text">
+                        Black Belt Brews was founded by Marcus Chen, a third-degree black belt in Taekwondo and lifelong coffee enthusiast. 
+                        Marcus's journey began in a small coffee shop near his dojo, where he discovered that the same principles that guided 
+                        his martial arts training—patience, precision, and respect for the craft—could be applied to coffee roasting.
+                    </p>
+                    <p class="about-text">
+                        After years of training under master roasters and traveling to coffee-growing regions across Central and South America, 
+                        Africa, and Asia, Marcus combined his two passions to create Black Belt Brews. His philosophy is simple: just as every 
+                        martial arts technique requires countless hours of practice and refinement, every coffee bean deserves the same level of 
+                        attention and care to unlock its full potential.
+                    </p>
+                    <p class="about-text">
+                        Today, Marcus leads a team of dedicated coffee professionals who share his vision of bringing mindful, high-quality 
+                        coffee to people who appreciate the finer details in life. When he's not roasting coffee or perfecting new blends, 
+                        you can find him at the dojo, teaching the next generation of martial artists that dedication and discipline apply to 
+                        everything we do—including brewing the perfect cup of coffee.
+                    </p>
+                </div>
+                
                 <h2 class="font-bebas" style="font-size: 2rem; color: #1f2937; margin-top: 2rem; margin-bottom: 1rem;">Our Mission</h2>
                 <p class="about-text">
                     Our mission is to provide coffee that not only energizes your body but also sharpens your mind and spirit. 
@@ -762,6 +784,65 @@ function renderSubscriptionsPage() {
                     </div>
                 `).join('')}
             </div>
+            
+            <!-- How It Works Section -->
+            <div style="margin-top: 4rem; background-color: #f9fafb; padding: 3rem 2rem; border-radius: 1rem;">
+                <h2 class="font-bebas text-center" style="font-size: 3rem; color: #1f2937; margin-bottom: 2rem;">How It Works</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; max-width: 64rem; margin: 0 auto;">
+                    <div style="text-align: center;">
+                        <div style="background-color: #1f2937; color: white; width: 4rem; height: 4rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-family: 'Bebas Neue', sans-serif; font-size: 2rem;">1</div>
+                        <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Choose Your Plan</h3>
+                        <p style="color: #6b7280;">Select the subscription that fits your coffee needs and lifestyle.</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="background-color: #1f2937; color: white; width: 4rem; height: 4rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-family: 'Bebas Neue', sans-serif; font-size: 2rem;">2</div>
+                        <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Customize Your Delivery</h3>
+                        <p style="color: #6b7280;">Pick your favorite blends and set your delivery frequency.</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="background-color: #1f2937; color: white; width: 4rem; height: 4rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-family: 'Bebas Neue', sans-serif; font-size: 2rem;">3</div>
+                        <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Enjoy Fresh Coffee</h3>
+                        <p style="color: #6b7280;">Receive freshly roasted coffee at your doorstep every month.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Subscription Perks Section -->
+            <div style="margin-top: 4rem;">
+                <h2 class="font-bebas text-center" style="font-size: 3rem; color: #1f2937; margin-bottom: 2rem;">Subscription Perks</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 64rem; margin: 0 auto;">
+                    <div style="background-color: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <i class="ri-truck-line" style="font-size: 2.5rem; color: #1f2937; margin-bottom: 1rem;"></i>
+                        <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Free Shipping</h3>
+                        <p style="color: #6b7280;">Enjoy free shipping on all subscription orders, no minimum required.</p>
+                    </div>
+                    <div style="background-color: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <i class="ri-discount-percent-line" style="font-size: 2.5rem; color: #1f2937; margin-bottom: 1rem;"></i>
+                        <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Exclusive Savings</h3>
+                        <p style="color: #6b7280;">Save up to 20% on one-time purchases and get exclusive member discounts.</p>
+                    </div>
+                    <div style="background-color: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <i class="ri-star-line" style="font-size: 2.5rem; color: #1f2937; margin-bottom: 1rem;"></i>
+                        <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Premium Blends</h3>
+                        <p style="color: #6b7280;">Access to exclusive, limited-edition blends available only to subscribers.</p>
+                    </div>
+                    <div style="background-color: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <i class="ri-calendar-check-line" style="font-size: 2.5rem; color: #1f2937; margin-bottom: 1rem;"></i>
+                        <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Flexible Schedule</h3>
+                        <p style="color: #6b7280;">Pause, skip, or cancel your subscription anytime with no penalties.</p>
+                    </div>
+                    <div style="background-color: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <i class="ri-gift-line" style="font-size: 2.5rem; color: #1f2937; margin-bottom: 1rem;"></i>
+                        <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Early Access</h3>
+                        <p style="color: #6b7280;">Be the first to try new products and seasonal releases before anyone else.</p>
+                    </div>
+                    <div style="background-color: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                        <i class="ri-customer-service-2-line" style="font-size: 2.5rem; color: #1f2937; margin-bottom: 1rem;"></i>
+                        <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem;">Priority Support</h3>
+                        <p style="color: #6b7280;">Get dedicated customer support with faster response times for all your needs.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     `;
 }
@@ -792,6 +873,7 @@ function render404Page() {
 }
 
 // Register Routes
+// Register Routes
 router.register('/', renderHomePage);
 router.register('/shop', renderShopPage);
 router.register('/merch', renderMerchPage);
@@ -801,6 +883,12 @@ router.register('/contact', renderContactPage);
 router.register('/subscriptions', renderSubscriptionsPage);
 router.register('/cart', renderCartPage);
 router.register('*', render404Page);
+
+// Mobile Menu Toggle
+function toggleMobileMenu() {
+    const mobileNav = document.getElementById('mobile-nav');
+    mobileNav.classList.toggle('active');
+}
 
 // Initialize
 document.getElementById('current-year').textContent = new Date().getFullYear();
